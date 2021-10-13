@@ -1,0 +1,5 @@
+Name: Dr. Z
+Chamber: Dhanmondi 27
+Visiting Hour: 6-9 pm (Wed-Mon)
+Doctor's Type: Neurologist
+Ph: 01709860910

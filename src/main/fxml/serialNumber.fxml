@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="128.0" layoutY="40.0" prefHeight="300.0" prefWidth="325.0">
+         <children>
+            <Label layoutX="4.0" layoutY="89.0" prefHeight="17.0" prefWidth="72.0" text="Patient Name" />
+            <TextField fx:id="doctorNameField" editable="false" layoutX="98.0" layoutY="120.0" />
+            <Label layoutX="28.0" layoutY="160.0" text="Serial No. " />
+            <TextField fx:id="serialNumField" editable="false" layoutX="99.0" layoutY="156.0" />
+            <Label layoutX="30.0" layoutY="206.0" text="Chamber" />
+            <TextField fx:id="chamberField" editable="false" layoutX="100.0" layoutY="193.0" prefHeight="44.0" prefWidth="149.0" />
+            <Label layoutX="39.0" layoutY="26.0" prefHeight="25.0" prefWidth="208.0" text="Serial Number And Chamber" textFill="#aa3636">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="4.0" layoutY="124.0" text="Doctor Name" />
+            <TextField fx:id="patientNameField" layoutX="98.0" layoutY="85.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
